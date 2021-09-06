@@ -1,0 +1,43 @@
+h2{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+#texto1{
+  color:rgb(24, 83, 131);
+  padding-left: 30px;
+  font-size:45px;
+}
+#texto2{
+  color:rgb(19, 107, 179);
+  padding-left: 0px;
+  font-size:70px;
+}
+#texto3{
+  color:rgb(107, 175, 231);
+  padding-left: 30px;
+  font-size:45px;
+}
+#texto4{
+  color:rgb(212, 230, 245);
+  padding-left: 0px;
+  font-size:70px;
+}
+#mensaje{
+  padding-left: 70px;
+}
+#buscar{
+  padding-left: 70px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+#buscar input{
+  width: 240px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: black;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+}
