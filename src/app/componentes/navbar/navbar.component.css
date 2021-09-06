@@ -1,0 +1,32 @@
+
+.container-fluid{
+  background: none;
+}
+#navbarNav{
+  background: rgba(70, 70, 70, 0.377);
+}
+.navbar-brand{
+  color: white;
+}
+#navbarItems{
+  color: rgba(255, 255, 255, 0.795);
+}
+.navbar-collapse {
+  display: flex!important;
+  flex-basis: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-end;
+}
+#redes{
+  padding: 5px;
+
+}
+.nav-item{
+  margin: auto;
+}
+#navprincipal{
+  padding: 50px 0px 0px 0px;
+    background: transparent !important;
+}
