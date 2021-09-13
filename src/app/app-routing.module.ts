@@ -1,4 +1,5 @@
-import { NgModule } from '@angular/core';
+import { ElementosFerreteriaComponent } from './componentes/elementos-ferreteria/elementos-ferreteria.component';
+import { NgModule, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
 
@@ -11,6 +12,8 @@ import { CursosComponent } from './componentes/cursos/cursos.component';
 import { ProductosComponent } from './componentes/productos/productos.component';
 import { ContactosComponent } from './componentes/contactos/contactos.component';
 import { HomeComponent } from './componentes/home/home.component';
+import { ElementosLamparasComponent } from './componentes/elementos-lamparas/elementos-lamparas.component';
+import { ElementosConcreteItemsComponent } from './componentes/elementos-concrete-items/elementos-concrete-items.component';
 
 
 const routes: Routes = [
@@ -20,7 +23,11 @@ const routes: Routes = [
   { path: 'cursos', component: CursosComponent},
   { path: 'productos', component: ProductosComponent},
   { path: 'contactos', component: ContactosComponent},
-  { path: 'home', component: HomeComponent},
+  { path: '', component: HomeComponent},
+  { path: 'productos_ferreteria', component: ElementosFerreteriaComponent},
+  { path: 'productos_lampara', component: ElementosLamparasComponent},
+  { path: 'productos_concrete_items', component: ElementosConcreteItemsComponent}
+  
 
 ];
 
