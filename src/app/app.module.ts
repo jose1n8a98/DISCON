@@ -17,6 +17,7 @@ import { ElementosFerreteriaComponent } from './componentes/elementos-ferreteria
 import { CardsElementosComponent } from './componentes/cards-elementos/cards-elementos.component';
 import { ElementosLamparasComponent } from './componentes/elementos-lamparas/elementos-lamparas.component';
 import { ElementosConcreteItemsComponent } from './componentes/elementos-concrete-items/elementos-concrete-items.component';
+import { CardObrasComponent } from './componentes/card-obras/card-obras.component';
 
 //const routes: Routes = [
   //{ path: 'quienes-somos', component: QuienesSomosComponent},
@@ -40,7 +41,8 @@ import { ElementosConcreteItemsComponent } from './componentes/elementos-concret
     ElementosFerreteriaComponent,
     CardsElementosComponent,
     ElementosLamparasComponent,
-    ElementosConcreteItemsComponent
+    ElementosConcreteItemsComponent,
+    CardObrasComponent
   ],
   imports: [
     BrowserModule,
