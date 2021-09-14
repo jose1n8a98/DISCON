@@ -21,6 +21,8 @@ import { ElementosMoviliarioComponent } from './componentes/elementos-moviliario
 import { ElementosElectricosComponent } from './componentes/elementos-electricos/elementos-electricos.component';
 import { VentaproductoComponent } from './componentes/ventaproducto/ventaproducto.component';
 import { CardObrasComponent } from './componentes/card-obras/card-obras.component';
+import { CardVentaComponent } from './componentes/card-venta/card-venta.component';
+import { MiniCardsComponent } from './componentes/mini-cards/mini-cards.component';
 
 //const routes: Routes = [
   //{ path: 'quienes-somos', component: QuienesSomosComponent},
@@ -48,7 +50,9 @@ import { CardObrasComponent } from './componentes/card-obras/card-obras.componen
     ElementosMoviliarioComponent,
     ElementosElectricosComponent,
     VentaproductoComponent,
-    CardObrasComponent
+    CardObrasComponent,
+    CardVentaComponent,
+    MiniCardsComponent
   ],
   imports: [
     BrowserModule,

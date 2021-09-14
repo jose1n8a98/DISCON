@@ -1,0 +1,15 @@
+.colorb{
+    background-color: white;
+}
+#grid{
+    display: inline;
+}
+.espacio{
+    padding: 0.3cm;
+    padding-left: 3cm;
+}
+/* #tarjeta{
+    width: 100px;
+    height: 100px;
+    
+} */

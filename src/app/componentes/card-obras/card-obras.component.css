@@ -19,6 +19,7 @@ img{
   height: 300px;
   /*margin: 1.6666%;*/
   margin: calc(5%/4);
+  cursor: pointer;
 }
 img:hover{
   /* filter: blur(2px);

@@ -1,14 +1,14 @@
 .title{
     text-align: center;
-    font-size: 0.7cm;
+    font-size: 0.5cm;
 }
 img{
-    width: 278px;
-    height: 278px;
+    width: 150px;
+    height: 150px;
 }
 .precio{
     text-align: center;
-    font-size: 0.7cm;
+    font-size: 0.5cm;
 }
 .card{
     border: none;
