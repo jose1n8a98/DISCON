@@ -1,0 +1,33 @@
+    <div class="card mb-2" id="lines">
+        <div class="row g-0" id="lines">
+          <div class="col-md-5">
+            <img [src]="dataEntrante?.img" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title" align="center">{{dataEntrante?.title}}</h5>
+              <div id="desc">
+                  <p class="card-text">{{dataEntrante?.descripcion}}</p>
+              </div>
+              <p class="card-text" align="center">{{dataEntrante?.precio}}</p>
+              <div class="boton" align="center">
+                  <!-- <a href="#"   class="btn btn-secondary">Comprar</a> -->
+                  <!-- Large modal -->
+                    <!-- Large modal -->
+                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">Comprar</button>
+
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                        ...
+                        </div>
+                    </div>
+                    </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      

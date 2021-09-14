@@ -1,0 +1,15 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.boton{
+    padding-top: auto;
+}
+#desc{
+    padding: 2cm 0cm 2cm 1cm;
+    font-size: 100%;
+}
+#lines{
+    border: none !important;
+}

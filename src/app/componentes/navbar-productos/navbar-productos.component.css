@@ -16,4 +16,6 @@ img{
 }
 .EspacioDerecha{
     margin-right: 1cm;
+    align-items: center;
+    margin-left: 1cm;
 }
