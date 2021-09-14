@@ -18,6 +18,8 @@ import { CardsElementosComponent } from './componentes/cards-elementos/cards-ele
 import { ElementosLamparasComponent } from './componentes/elementos-lamparas/elementos-lamparas.component';
 import { ElementosConcreteItemsComponent } from './componentes/elementos-concrete-items/elementos-concrete-items.component';
 import { CardObrasComponent } from './componentes/card-obras/card-obras.component';
+import { SlidebarComponent } from './componentes/slidebar/slidebar.component';
+
 
 //const routes: Routes = [
   //{ path: 'quienes-somos', component: QuienesSomosComponent},
@@ -42,7 +44,9 @@ import { CardObrasComponent } from './componentes/card-obras/card-obras.componen
     CardsElementosComponent,
     ElementosLamparasComponent,
     ElementosConcreteItemsComponent,
-    CardObrasComponent
+    CardObrasComponent,
+    SlidebarComponent,
+
   ],
   imports: [
     BrowserModule,

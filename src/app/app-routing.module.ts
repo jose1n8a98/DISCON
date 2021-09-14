@@ -14,7 +14,7 @@ import { ContactosComponent } from './componentes/contactos/contactos.component'
 import { HomeComponent } from './componentes/home/home.component';
 import { ElementosLamparasComponent } from './componentes/elementos-lamparas/elementos-lamparas.component';
 import { ElementosConcreteItemsComponent } from './componentes/elementos-concrete-items/elementos-concrete-items.component';
-
+import { SlidebarComponent } from './componentes/slidebar/slidebar.component';
 
 const routes: Routes = [
   { path: 'quienes-somos', component: QuienesSomosComponent},
@@ -26,8 +26,8 @@ const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'productos_ferreteria', component: ElementosFerreteriaComponent},
   { path: 'productos_lampara', component: ElementosLamparasComponent},
-  { path: 'productos_concrete_items', component: ElementosConcreteItemsComponent}
-  
+  { path: 'productos_concrete_items', component: ElementosConcreteItemsComponent},
+  { path: 'slidebar', component: SlidebarComponent},
 
 ];
 
