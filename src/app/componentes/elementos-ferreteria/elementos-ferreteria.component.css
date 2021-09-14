@@ -7,7 +7,6 @@
 #espacio{
     display: inline;
 }
-
-.espacio{
-    padding: 10px!important;
+.container{
+    margin-bottom: 1cm!important;
 }

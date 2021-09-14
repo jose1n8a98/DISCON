@@ -1,0 +1,19 @@
+a{
+    font-size: 0.5cm;
+}
+li{
+    margin-right: 2cm;
+    margin-left: 1cm;
+} 
+
+.color{
+    background-color: white!important; 
+    
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+.EspacioDerecha{
+    margin-right: 1cm;
+}

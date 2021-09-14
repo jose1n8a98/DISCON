@@ -11,6 +11,12 @@ import { CursosComponent } from './componentes/cursos/cursos.component';
 import { ProductosComponent } from './componentes/productos/productos.component';
 import { ContactosComponent } from './componentes/contactos/contactos.component';
 import { HomeComponent } from './componentes/home/home.component';
+import { NavbarProductosComponent } from './componentes/navbar-productos/navbar-productos.component';
+import { CardProductosComponent } from './componentes/card-productos/card-productos.component';
+import { ElementosFerreteriaComponent } from './componentes/elementos-ferreteria/elementos-ferreteria.component';
+import { CardsElementosComponent } from './componentes/cards-elementos/cards-elementos.component';
+import { ElementosLamparasComponent } from './componentes/elementos-lamparas/elementos-lamparas.component';
+import { ElementosConcreteItemsComponent } from './componentes/elementos-concrete-items/elementos-concrete-items.component';
 
 //const routes: Routes = [
   //{ path: 'quienes-somos', component: QuienesSomosComponent},
@@ -28,7 +34,13 @@ import { HomeComponent } from './componentes/home/home.component';
     CursosComponent,
     ProductosComponent,
     ContactosComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarProductosComponent,
+    CardProductosComponent,
+    ElementosFerreteriaComponent,
+    CardsElementosComponent,
+    ElementosLamparasComponent,
+    ElementosConcreteItemsComponent
   ],
   imports: [
     BrowserModule,
