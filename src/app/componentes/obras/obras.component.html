@@ -1,19 +1,14 @@
-<!--
-<div id="color">
-
-  <div id="principal">
-
-  </div>
-</div> -->
 <div id="contenedor">
   <div id="contenedor1" *ngFor="let card of cards">
     <i class='bx bx-wifi-0' style='color:#f9f9f9'  ></i>
     <a>{{card.title}}</a>
   </div>
 </div>
-<div class="d-flex flex-wrap ">
+<div class="d-flex flex-wrap">
 
   <app-card-obras class="espacio img-fluid" [dataEntrante]="card"
-*ngFor = "let card of cards" ></app-card-obras>
-
+*ngFor = "let card of cards"></app-card-obras>
+<div class="texto-tarjeta" *ngFor="let card of cards">"
+  <h4>{{card.title}}</h4>
+</div>
 </div>

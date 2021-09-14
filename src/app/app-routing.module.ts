@@ -18,6 +18,7 @@ import { ElementosMoviliarioComponent } from './componentes/elementos-moviliario
 import { ElementosElectricosComponent } from './componentes/elementos-electricos/elementos-electricos.component';
 import { VentaproductoComponent } from './componentes/ventaproducto/ventaproducto.component';
 
+import { SlidebarComponent } from './componentes/slidebar/slidebar.component';
 
 const routes: Routes = [
   { path: 'quienes-somos', component: QuienesSomosComponent},
@@ -32,8 +33,8 @@ const routes: Routes = [
   { path: 'productos_concrete_items', component: ElementosConcreteItemsComponent},
   { path: 'productos_moviliarios', component: ElementosMoviliarioComponent},
   { path: 'productos_electricos', component: ElementosElectricosComponent},
-  { path: 'venta_producto', component: VentaproductoComponent }
-  
+  { path: 'venta_producto', component: VentaproductoComponent },
+  { path: 'slidebar', component: SlidebarComponent}
 ];
 
 @NgModule({

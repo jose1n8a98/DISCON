@@ -1,5 +1,6 @@
 body{
   background: black;
+
 }
 #principal{
   padding-top: 40px;
@@ -13,21 +14,25 @@ body{
   font-size: 18px;
   padding: 10px;
   text-align: center;
+  overflow: hidden;
 }
 img{
+  overflow: hidden;
   width: 350px;
-  height: 300px;
+  height: 250px;
   /*margin: 1.6666%;*/
   margin: calc(5%/4);
   cursor: pointer;
+
 }
 img:hover{
-  /* filter: blur(2px);
-   */
-   /* transition: all .1s ease-in-out;
-    */
+  overflow: hidden;
+  transition: transform 2s;
+  position: relative;
   filter: brightness(20%);
+  transform: scale(1.2);
   }
+  
 .title{
   display: none;
   color: white;
