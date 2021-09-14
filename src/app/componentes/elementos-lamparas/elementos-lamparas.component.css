@@ -4,7 +4,6 @@
 #grid{
     display: inline;
 }
-espacio{
-
-    margin-left: 1cm!important;
+.espacio{
+    padding: 0.3cm;
 }

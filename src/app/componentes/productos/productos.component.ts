@@ -23,7 +23,6 @@ export class ProductosComponent implements OnInit {
         title:'Concrete items',
         img:'https://i.pinimg.com/originals/09/8e/0d/098e0deb9e398ecc0356afed44587af4.jpg'
       }
-      
     ]
   }
 

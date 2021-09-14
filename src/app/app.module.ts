@@ -17,6 +17,9 @@ import { ElementosFerreteriaComponent } from './componentes/elementos-ferreteria
 import { CardsElementosComponent } from './componentes/cards-elementos/cards-elementos.component';
 import { ElementosLamparasComponent } from './componentes/elementos-lamparas/elementos-lamparas.component';
 import { ElementosConcreteItemsComponent } from './componentes/elementos-concrete-items/elementos-concrete-items.component';
+import { ElementosMoviliarioComponent } from './componentes/elementos-moviliario/elementos-moviliario.component';
+import { ElementosElectricosComponent } from './componentes/elementos-electricos/elementos-electricos.component';
+import { VentaproductoComponent } from './componentes/ventaproducto/ventaproducto.component';
 import { CardObrasComponent } from './componentes/card-obras/card-obras.component';
 import { SlidebarComponent } from './componentes/slidebar/slidebar.component';
 
@@ -44,9 +47,16 @@ import { SlidebarComponent } from './componentes/slidebar/slidebar.component';
     CardsElementosComponent,
     ElementosLamparasComponent,
     ElementosConcreteItemsComponent,
+<<<<<<< HEAD
     CardObrasComponent,
     SlidebarComponent,
 
+=======
+    ElementosMoviliarioComponent,
+    ElementosElectricosComponent,
+    VentaproductoComponent,
+    CardObrasComponent
+>>>>>>> origin/Kevin
   ],
   imports: [
     BrowserModule,

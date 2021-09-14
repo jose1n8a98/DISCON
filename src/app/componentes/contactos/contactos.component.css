@@ -1,0 +1,32 @@
+#title{
+    color: white;
+}
+h1{
+    font-size: 30px;
+}
+h3{
+    color: rgb(119, 118, 116);
+    font-size: 25px;
+}
+h2{
+    color: rgb(119, 118, 116);
+    font-size: 20px;
+}
+
+.divicion{
+    display: inline;
+}
+
+#datos{
+    padding: 100px 0 0 0;
+}
+#dato{
+    padding: 50px 0 35px 0;
+}
+#mapa{
+
+    padding: 25px 0 0 0;
+}
+#cont{
+    padding: 15px 0 0 0;
+}
