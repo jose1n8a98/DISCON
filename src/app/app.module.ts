@@ -20,6 +20,7 @@ import { ElementosConcreteItemsComponent } from './componentes/elementos-concret
 import { ElementosMoviliarioComponent } from './componentes/elementos-moviliario/elementos-moviliario.component';
 import { ElementosElectricosComponent } from './componentes/elementos-electricos/elementos-electricos.component';
 import { VentaproductoComponent } from './componentes/ventaproducto/ventaproducto.component';
+import { CardObrasComponent } from './componentes/card-obras/card-obras.component';
 
 //const routes: Routes = [
   //{ path: 'quienes-somos', component: QuienesSomosComponent},
@@ -46,7 +47,8 @@ import { VentaproductoComponent } from './componentes/ventaproducto/ventaproduct
     ElementosConcreteItemsComponent,
     ElementosMoviliarioComponent,
     ElementosElectricosComponent,
-    VentaproductoComponent
+    VentaproductoComponent,
+    CardObrasComponent
   ],
   imports: [
     BrowserModule,

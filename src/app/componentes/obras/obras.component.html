@@ -1,35 +1,19 @@
+<!--
+<div id="color">
 
-<div id="principal">
+  <div id="principal">
 
-  <div id="contenedor">
-    <a>Casa de Hacienda Mayorga</a>
+  </div>
+</div> -->
+<div id="contenedor">
+  <div id="contenedor1" *ngFor="let card of cards">
     <i class='bx bx-wifi-0' style='color:#f9f9f9'  ></i>
-    <a>Emmanuel Quintas Campestres</a>
-    <i class='bx bx-wifi-0' style='color:#f9f9f9'  ></i>
-    <a>Casa de Hacienda Mayorga</a>
-    <i class='bx bx-wifi-0' style='color:#f9f9f9'  ></i>
-    <a>Pizzería Helena</a>
-    <i class='bx bx-wifi-0' style='color:#f9f9f9'  ></i>
-    <a>Mantenimiento correctivo de pisos de hospital</a>
-    <i class='bx bx-wifi-0' style='color:#f9f9f9'  ></i>
-    <a>Remodelación dpto. Iñaquito</a>
-    <i class='bx bx-wifi-0' style='color:#f9f9f9'  ></i>
-    <a>Remodelación consultorios médicos</a>
-    <i class='bx bx-wifi-0' style='color:#f9f9f9'  ></i>
-    <a>Remodelación dpto. - Área social</a>
-    <i class='bx bx-wifi-0' style='color:#f9f9f9'  ></i>
-    <a>Cubierta alternativa</a><i class='bx bx-wifi-0' style='color:#f9f9f9'  ></i>
-    <a>Remodelación dpto. Familia García</a>
+    <a>{{card.title}}</a>
   </div>
 </div>
-<div id="imagen">
-   <img src="https://tse1.mm.bing.net/th?id=OIP.XtOfo021pJJ_AigZpI1VywHaEy&pid=Api" alt="">
-   <img src="http://images.adsttc.com/media/images/5910/48b3/e58e/ce65/4200/03d2/large_jpg/IMG_2037.jpg?1494239395" alt="">
-   <img src="https://images.adsttc.com/media/images/5012/0354/28ba/0d55/8100/0198/large_jpg/stringio.jpg?1414036340" alt="">
-   <img src="http://www.arquifach.com/wp-content/uploads/2017/10/DSC00662.jpg" alt="">
-   <img src="https://www.arqhys.com/arquitectura/wp-content/uploads/2018/05/Qu%C3%A9-es-la-arquitectura-moderna.jpg" alt="">
-   <img src="https://revistadigital.inesem.es/gestion-integrada/files/2016/08/Untitled-1.png" alt="">
-   <img src="https://images.adsttc.com/media/images/586e/6d10/e58e/cef4/9f00/020b/large_jpg/01.jpg?1483631867" alt="">
+<div class="d-flex flex-wrap ">
+
+  <app-card-obras class="espacio img-fluid" [dataEntrante]="card"
+*ngFor = "let card of cards" ></app-card-obras>
 
 </div>
-
