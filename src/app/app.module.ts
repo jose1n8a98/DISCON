@@ -47,16 +47,13 @@ import { SlidebarComponent } from './componentes/slidebar/slidebar.component';
     CardsElementosComponent,
     ElementosLamparasComponent,
     ElementosConcreteItemsComponent,
-<<<<<<< HEAD
     CardObrasComponent,
     SlidebarComponent,
 
-=======
     ElementosMoviliarioComponent,
     ElementosElectricosComponent,
     VentaproductoComponent,
     CardObrasComponent
->>>>>>> origin/Kevin
   ],
   imports: [
     BrowserModule,
