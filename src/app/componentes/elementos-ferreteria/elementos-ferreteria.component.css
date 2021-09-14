@@ -4,9 +4,7 @@
 #grid{
     display: inline;
 }
-#espacio{
-    display: inline;
+.espacio{
+    padding: 0.3cm;
 }
-.container{
-    margin-bottom: 1cm!important;
-}
+
