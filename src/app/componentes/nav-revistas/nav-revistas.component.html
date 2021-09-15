@@ -9,31 +9,35 @@
   <div id="cen">
     <ul class="nav nav-pills nav-fill" id="bord" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true" [routerLink]="['/','inicio-revista']">INICIO</button>
+          <button [routerLink]="['/','inicio-revista']" class="nav-link  " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="false" >INICIO</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" [routerLink]="['/','actualidad-revista']">ACTUALIDAD</button>
+          <button [routerLink]="['/','actualidad-revista']" class="nav-link" id="pills-actualidad-tab" data-bs-toggle="pill" data-bs-target="#pills-actualidad" type="button" role="tab" aria-controls="pills-actualidad" aria-selected="false" >ACTUALIDAD</button>
+        </li>
+        <li [routerLink]="['/','arquitectura-revista']" class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-arquitectura-tab" data-bs-toggle="pill" data-bs-target="#pills-arquitectura" type="button" role="tab" aria-controls="pills-arquitectura" aria-selected="false" >ARQUITECTURA</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" [routerLink]="['/','arquitectura-revista']">ARQUITECTURA</button>
+          <button class="nav-link" id="pills-diseñoI-tab" data-bs-toggle="pill" data-bs-target="#pills-diseñoI" type="button" role="tab" aria-controls="pills-diseñoI" aria-selected="false" [routerLink]="['/','diseño-interior-revista']">DISEÑO INTERIOR</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" [routerLink]="['/','diseño-interior-revista']">DISEÑO INTERIOR</button>
+          <button class="nav-link" id="pills-diseño-tab" data-bs-toggle="pill" data-bs-target="#pills-diseño" type="button" role="tab" aria-controls="pills-diseño" aria-selected="false" [routerLink]="['/','diseño-revista']">DISEÑO</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" [routerLink]="['/','diseño-revista']">DISEÑO</button>
+          <button class="nav-link" id="pills-artC-tab" data-bs-toggle="pill" data-bs-target="#pills-artC" type="button" role="tab" aria-controls="pills-artC" aria-selected="false" [routerLink]="['/','arte-cultura-revista']">ARTE Y CULTURA</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" [routerLink]="['/','arte-cultura-revista']">ARTE Y CULTURA</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" [routerLink]="['/','tecnologia-revista']">TECNOLOGÍA</button>
+          <button class="nav-link" id="pills-tecno-tab" data-bs-toggle="pill" data-bs-target="#pills-tecno" type="button" role="tab" aria-controls="pills-tecno" aria-selected="false" [routerLink]="['/','tecnologia-revista']">TECNOLOGÍA</button>
         </li>
       </ul>
       <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"></div>
+        <div class="tab-pane fade" id="pills-actualidad" role="tabpanel" aria-labelledby="pills-actualidad-tab" ></div>
+        <div class="tab-pane fade" id="pills-arquitectura" role="tabpanel" aria-labelledby="pills-arquitectura-tab"></div>
+        <div class="tab-pane fade" id="pills-diseñoI" role="tabpanel" aria-labelledby="pills-diseñoI-tab"></div>
+        <div class="tab-pane fade" id="pills-diseño" role="tabpanel" aria-labelledby="pills-diseño-tab"></div>
+        <div class="tab-pane fade" id="pills-artC" role="tabpanel" aria-labelledby="pills-artC-tab"></div>
+        <div class="tab-pane fade" id="pills-tecno" role="tabpanel" aria-labelledby="pills-tecno-tab"></div>
       </div>
 </div>
   <br>
