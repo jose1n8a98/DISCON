@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-form-artic',
@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form-artic.component.css']
 })
 export class FormArticComponent implements OnInit {
+  @Input() dataEntrante:any;
 
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

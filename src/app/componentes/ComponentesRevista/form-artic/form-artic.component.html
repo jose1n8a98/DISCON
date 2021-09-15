@@ -1,18 +1,18 @@
-<div>
+<!-- <div>
     <h1>Titulo Articulo</h1>
     <p id="intro">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus esse nihil repellat.
     </p>
     <span id="leermas">Leer mas..</span>
 
-    <p id="mensaje"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ea iure inventore corrupti 
-        quia libero perferendis nesciunt molestiae! Sunt reprehenderit quos sapiente voluptate ad atque? 
+    <p id="mensaje"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ea iure inventore corrupti
+        quia libero perferendis nesciunt molestiae! Sunt reprehenderit quos sapiente voluptate ad atque?
         Nesciunt nostrum labore nulla provident.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque soluta consequatur voluptas sit deleniti 
-        modi facilis? Est nam ipsa libero molestiae. 
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque soluta consequatur voluptas sit deleniti
+        modi facilis? Est nam ipsa libero molestiae.
         Corrupti eum voluptate impedit et ratione maiores laboriosam necessitatibus.
     </p>
-    
+
     <script>
         $(document).ready(()=>{
             $('#mensaje').hide();
@@ -26,4 +26,18 @@
         });
     </script>
 </div>
-<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script> -->
+<div id="contenedor">
+  <div class="title">{{dataEntrante?.title}}</div>
+  <div id="imagen">
+    <img src="image" [src]="dataEntrante?.img" alt="">
+    <p>{{dataEntrante?.descripcion}}</p>
+  </div>
+</div>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+    </style>
+  
