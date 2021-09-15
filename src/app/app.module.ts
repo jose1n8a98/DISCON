@@ -38,6 +38,8 @@ import { TecnologiaComponent } from './componentes/ComponentesRevista/tecnologia
 import { FormArticComponent } from './componentes/ComponentesRevista/form-artic/form-artic.component';
 
 
+
+
 //const routes: Routes = [
   //{ path: 'quienes-somos', component: QuienesSomosComponent},
   //{ path: 'obras', component: ObrasComponent},
@@ -77,7 +79,7 @@ import { FormArticComponent } from './componentes/ComponentesRevista/form-artic/
     DisenoComponent,
     ArteCulturaComponent,
     TecnologiaComponent,
-    FormArticComponent,
+    FormArticComponent
   ],
   imports: [
     BrowserModule,

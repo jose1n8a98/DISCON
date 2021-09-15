@@ -14,18 +14,11 @@ import { ContactosComponent } from './componentes/contactos/contactos.component'
 import { HomeComponent } from './componentes/home/home.component';
 import { ElementosLamparasComponent } from './componentes/elementos-lamparas/elementos-lamparas.component';
 import { ElementosConcreteItemsComponent } from './componentes/elementos-concrete-items/elementos-concrete-items.component';
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/Norman
 import { ElementosMoviliarioComponent } from './componentes/elementos-moviliario/elementos-moviliario.component';
 import { ElementosElectricosComponent } from './componentes/elementos-electricos/elementos-electricos.component';
 import { VentaproductoComponent } from './componentes/ventaproducto/ventaproducto.component';
 
-<<<<<<< HEAD
-import { SlidebarComponent } from './componentes/slidebar/slidebar.component';
-=======
->>>>>>> origin/Norman
 
 const routes: Routes = [
   { path: 'quienes-somos', component: QuienesSomosComponent},
@@ -40,13 +33,8 @@ const routes: Routes = [
   { path: 'productos_concrete_items', component: ElementosConcreteItemsComponent},
   { path: 'productos_moviliarios', component: ElementosMoviliarioComponent},
   { path: 'productos_electricos', component: ElementosElectricosComponent},
-<<<<<<< HEAD
-  { path: 'venta_producto', component: VentaproductoComponent },
-  { path: 'slidebar', component: SlidebarComponent}
-=======
   { path: 'venta_producto', component: VentaproductoComponent }
 
->>>>>>> origin/Norman
 ];
 
 @NgModule({

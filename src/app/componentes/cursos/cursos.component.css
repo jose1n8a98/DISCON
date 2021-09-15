@@ -5,6 +5,7 @@
   transition: transform .35s ease;
   transform-origin: .5em 50%;
 }
+
 .btn-toggle[aria-expanded="true"]::before {
   transform: rotate(
 90deg);
