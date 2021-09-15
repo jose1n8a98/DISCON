@@ -21,6 +21,7 @@ import { ElementosMoviliarioComponent } from './componentes/elementos-moviliario
 import { ElementosElectricosComponent } from './componentes/elementos-electricos/elementos-electricos.component';
 import { VentaproductoComponent } from './componentes/ventaproducto/ventaproducto.component';
 import { CardObrasComponent } from './componentes/card-obras/card-obras.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 //const routes: Routes = [
   //{ path: 'quienes-somos', component: QuienesSomosComponent},
@@ -52,7 +53,8 @@ import { CardObrasComponent } from './componentes/card-obras/card-obras.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
