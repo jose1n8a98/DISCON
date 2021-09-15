@@ -29,6 +29,9 @@ import { CardObrasComponent } from './componentes/card-obras/card-obras.componen
 import { CardVentaComponent } from './componentes/card-venta/card-venta.component';
 import { MiniCardsComponent } from './componentes/mini-cards/mini-cards.component';
 
+
+
+
 //const routes: Routes = [
   //{ path: 'quienes-somos', component: QuienesSomosComponent},
   //{ path: 'obras', component: ObrasComponent},
@@ -58,7 +61,9 @@ import { MiniCardsComponent } from './componentes/mini-cards/mini-cards.componen
     VentaproductoComponent,
     CardObrasComponent,
     CardVentaComponent,
-    MiniCardsComponent
+    MiniCardsComponent,
+
+
   ],
   imports: [
     BrowserModule,

@@ -33,7 +33,9 @@ const routes: Routes = [
   { path: 'productos_concrete_items', component: ElementosConcreteItemsComponent},
   { path: 'productos_moviliarios', component: ElementosMoviliarioComponent},
   { path: 'productos_electricos', component: ElementosElectricosComponent},
-  { path: 'venta_producto', component: VentaproductoComponent }
+  { path: 'venta_producto', component: VentaproductoComponent },
+
+  { path: 'venta_producto', component: VentaproductoComponent },
 
 ];
 

@@ -24,6 +24,8 @@ img{
   margin: calc(5%/4);
 
   cursor: pointer;
+
+
 }
 img:hover{
   overflow: hidden;
@@ -32,8 +34,8 @@ img:hover{
   filter: brightness(20%);
   transform: scale(1.2);
   }
+
 .title{
   display: none;
   color: white;
 }
-
