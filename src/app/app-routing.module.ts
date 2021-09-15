@@ -23,6 +23,7 @@ import { DisenoInteriorComponent } from './componentes/ComponentesRevista/diseno
 import { DisenoComponent } from './componentes/ComponentesRevista/diseno/diseno.component';
 import { ArteCulturaComponent } from './componentes/ComponentesRevista/arte-cultura/arte-cultura.component';
 import { TecnologiaComponent } from './componentes/ComponentesRevista/tecnologia/tecnologia.component';
+import { InicioComponent } from './componentes/ComponentesRevista/inicio/inicio.component';
 
 
 const routes: Routes = [
@@ -47,9 +48,10 @@ const routes: Routes = [
   { path: 'arquitectura-revista', component: ArquitecturaComponent },
   { path: 'tecnologia-revista', component: TecnologiaComponent },
   { path: 'actualidad-revista', component: ActualidadComponent },
-  { path: 'diseño-revista', component: DisenoComponent },   
-  { path: 'diseño-interior-revista', component: DisenoInteriorComponent },   
-  { path: 'arte-cultura-revista', component: ArteCulturaComponent },   
+  { path: 'diseño-revista', component: DisenoComponent },
+  { path: 'diseño-interior-revista', component: DisenoInteriorComponent },
+  { path: 'arte-cultura-revista', component: ArteCulturaComponent },
+  { path: 'inicio-revista', component: InicioComponent },
 
 ];
 

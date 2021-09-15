@@ -14,4 +14,8 @@
 .espacio{
   padding: 0.3cm;
 }
+.d-flex {
+  display: flex!important;
+  justify-content: space-around;
+}
 
