@@ -13,43 +13,43 @@ export class ObrasComponent implements OnInit {
     this.cards = [
       {
         title:'Casa de Hacienda Mayorga',
-        img:'https://tse1.mm.bing.net/th?id=OIP.XtOfo021pJJ_AigZpI1VywHaEy&pid=Api'
+        img:'http://discon-001-site1.itempurl.com/Imagenes/obraCasaMayorga.jpg'
       },
       {
         title:'Emmanuel Quintas Campestres',
-        img:'http://images.adsttc.com/media/images/5910/48b3/e58e/ce65/4200/03d2/large_jpg/IMG_2037.jpg?1494239395'
+        img:'http://discon-001-site1.itempurl.com/Imagenes/obraEmmanuelCamp.jpg'
       },
       {
         title:'Barbicue en el campo',
-        img:'https://images.adsttc.com/media/images/5012/0354/28ba/0d55/8100/0198/large_jpg/stringio.jpg?1414036340'
+        img:'http://discon-001-site1.itempurl.com/Imagenes/obraBarbicueCamp.jpg'
       },
       {
         title:'Pizzería Helena',
-        img:'http://www.arquifach.com/wp-content/uploads/2017/10/DSC00662.jpg'
+        img:'http://discon-001-site1.itempurl.com/Imagenes/obraPizzeriaHele.jpg'
       },
       {
         title:'Mantenimiento correctivo de pisos de hospital',
-        img:'https://www.arqhys.com/arquitectura/wp-content/uploads/2018/05/Qu%C3%A9-es-la-arquitectura-moderna.jpg'
+        img:'http://discon-001-site1.itempurl.com/Imagenes/obraMantHosp.jpg'
       },
       {
         title:'Remodelación dpto. Iñaquito',
-        img:'https://revistadigital.inesem.es/gestion-integrada/files/2016/08/Untitled-1.png'
+        img:'http://discon-001-site1.itempurl.com/Imagenes/obraRemodMed.png'
       },
       {
         title:'Remodelación consultorios médicos',
-        img:'https://images.adsttc.com/media/images/586e/6d10/e58e/cef4/9f00/020b/large_jpg/01.jpg?1483631867'
+        img:'http://discon-001-site1.itempurl.com/Imagenes/obraCasaMayorga.jpg'
       },
       {
         title:'Remodelación dpto. - Área social',
-        img:'https://tse1.mm.bing.net/th?id=OIP.XtOfo021pJJ_AigZpI1VywHaEy&pid=Api'
+        img:'http://discon-001-site1.itempurl.com/Imagenes/obraCasaMayorga.jpg'
       },
       {
         title:'Cubierta alternativa',
-        img:'https://tse1.mm.bing.net/th?id=OIP.XtOfo021pJJ_AigZpI1VywHaEy&pid=Api'
+        img:'http://discon-001-site1.itempurl.com/Imagenes/obraCasaMayorga.jpg'
       },
       {
         title:'Remodelación dpto. Familia García',
-        img:'https://tse1.mm.bing.net/th?id=OIP.XtOfo021pJJ_AigZpI1VywHaEy&pid=Api'
+        img:'http://discon-001-site1.itempurl.com/Imagenes/obraCasaMayorga.jpg'
       },
     ]
   }

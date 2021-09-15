@@ -24,6 +24,8 @@ img{
   margin: calc(5%/4);
   cursor: pointer;
 
+
+  cursor: pointer;
 }
 img:hover{
   overflow: hidden;

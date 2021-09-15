@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+ //Inicio servicio
+ import { CargarScriptsService } from './cargar-scripts.service'
+ //Fin servicio
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { QuienesSomosComponent } from './componentes/quienes-somos/quienes-somos.component';
@@ -23,7 +27,6 @@ import { VentaproductoComponent } from './componentes/ventaproducto/ventaproduct
 import { CardObrasComponent } from './componentes/card-obras/card-obras.component';
 import { CardVentaComponent } from './componentes/card-venta/card-venta.component';
 import { MiniCardsComponent } from './componentes/mini-cards/mini-cards.component';
-import { SlidebarComponent } from './componentes/slidebar/slidebar.component';
 import { NavRevistasComponent } from './componentes/nav-revistas/nav-revistas.component';
 import { InicioComponent } from './componentes/ComponentesRevista/inicio/inicio.component';
 import { ActualidadComponent } from './componentes/ComponentesRevista/actualidad/actualidad.component';
@@ -58,6 +61,7 @@ import { FormArticComponent } from './componentes/ComponentesRevista/form-artic/
     CardsElementosComponent,
     ElementosLamparasComponent,
     ElementosConcreteItemsComponent,
+    CardObrasComponent,
     ElementosMoviliarioComponent,
     ElementosElectricosComponent,
     VentaproductoComponent,
@@ -65,7 +69,6 @@ import { FormArticComponent } from './componentes/ComponentesRevista/form-artic/
     CardVentaComponent,
     MiniCardsComponent,
     CardObrasComponent,
-    SlidebarComponent,
     NavRevistasComponent,
     InicioComponent,
     ActualidadComponent,
@@ -74,14 +77,16 @@ import { FormArticComponent } from './componentes/ComponentesRevista/form-artic/
     DisenoComponent,
     ArteCulturaComponent,
     TecnologiaComponent,
-    FormArticComponent
-
+    FormArticComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    CargarScriptsService
+  ],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
