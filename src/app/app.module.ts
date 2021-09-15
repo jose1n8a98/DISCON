@@ -24,6 +24,15 @@ import { CardObrasComponent } from './componentes/card-obras/card-obras.componen
 import { CardVentaComponent } from './componentes/card-venta/card-venta.component';
 import { MiniCardsComponent } from './componentes/mini-cards/mini-cards.component';
 import { SlidebarComponent } from './componentes/slidebar/slidebar.component';
+import { NavRevistasComponent } from './componentes/nav-revistas/nav-revistas.component';
+import { InicioComponent } from './componentes/ComponentesRevista/inicio/inicio.component';
+import { ActualidadComponent } from './componentes/ComponentesRevista/actualidad/actualidad.component';
+import { ArquitecturaComponent } from './componentes/ComponentesRevista/arquitectura/arquitectura.component';
+import { DisenoInteriorComponent } from './componentes/ComponentesRevista/diseno-interior/diseno-interior.component';
+import { DisenoComponent } from './componentes/ComponentesRevista/diseno/diseno.component';
+import { ArteCulturaComponent } from './componentes/ComponentesRevista/arte-cultura/arte-cultura.component';
+import { TecnologiaComponent } from './componentes/ComponentesRevista/tecnologia/tecnologia.component';
+import { FormArticComponent } from './componentes/ComponentesRevista/form-artic/form-artic.component';
 
 
 //const routes: Routes = [
@@ -56,7 +65,16 @@ import { SlidebarComponent } from './componentes/slidebar/slidebar.component';
     CardVentaComponent,
     MiniCardsComponent,
     CardObrasComponent,
-    SlidebarComponent
+    SlidebarComponent,
+    NavRevistasComponent,
+    InicioComponent,
+    ActualidadComponent,
+    ArquitecturaComponent,
+    DisenoInteriorComponent,
+    DisenoComponent,
+    ArteCulturaComponent,
+    TecnologiaComponent,
+    FormArticComponent
 
   ],
   imports: [

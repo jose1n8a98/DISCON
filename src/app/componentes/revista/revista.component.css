@@ -1,0 +1,16 @@
+#Color{
+    background-color: white;
+}
+
+#title{
+    text-align: center;
+}
+
+#title h1{
+    font-size: 700%;
+    font-family:'Viaoda Libre', cursive;
+}
+#title h3{
+    font-size: 200%;
+    font-family:'Viaoda Libre', cursive;
+}

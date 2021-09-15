@@ -1,0 +1,29 @@
+<div>
+    <h1>Titulo Articulo</h1>
+    <p id="intro">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus esse nihil repellat.
+    </p>
+    <span id="leermas">Leer mas..</span>
+
+    <p id="mensaje"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ea iure inventore corrupti 
+        quia libero perferendis nesciunt molestiae! Sunt reprehenderit quos sapiente voluptate ad atque? 
+        Nesciunt nostrum labore nulla provident.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque soluta consequatur voluptas sit deleniti 
+        modi facilis? Est nam ipsa libero molestiae. 
+        Corrupti eum voluptate impedit et ratione maiores laboriosam necessitatibus.
+    </p>
+    
+    <script>
+        $(document).ready(()=>{
+            $('#mensaje').hide();
+
+            $('#leermas').click(function(){
+                $('#intro').hide();
+                $('#leermas').hide();
+
+                $('#mensaje').show('slow')
+            })
+        });
+    </script>
+</div>
+<script src="js/jquery-3.4.1.min.js"></script>
