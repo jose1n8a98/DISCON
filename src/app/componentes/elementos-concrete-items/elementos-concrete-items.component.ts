@@ -43,9 +43,7 @@ export class ElementosConcreteItemsComponent implements OnInit {
         title:'Atelier Ideco',
         precio:'7.99$',
         img:'https://m.media-amazon.com/images/I/61RUGgUqODL._SL1368_.jpg'
-      }
-
-      
+      }      
     ]
   }
 
