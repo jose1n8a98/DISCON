@@ -1,0 +1,21 @@
+.title{
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Viaoda libre', cursive;
+}
+#contenedor{
+  background-color: white;
+  padding: 20px;
+}
+img{
+  width: 70%;
+  padding: 12px;
+  
+}
+#imagen{
+  text-align: center;
+}
+p{
+  font-size: 27px;
+  padding: 12px;
+}

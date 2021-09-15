@@ -79,7 +79,7 @@ import { FormArticComponent } from './componentes/ComponentesRevista/form-artic/
     DisenoComponent,
     ArteCulturaComponent,
     TecnologiaComponent,
-    FormArticComponent
+    FormArticComponent,
   ],
   imports: [
     BrowserModule,

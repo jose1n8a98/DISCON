@@ -18,6 +18,12 @@ import { ElementosConcreteItemsComponent } from './componentes/elementos-concret
 import { ElementosMoviliarioComponent } from './componentes/elementos-moviliario/elementos-moviliario.component';
 import { ElementosElectricosComponent } from './componentes/elementos-electricos/elementos-electricos.component';
 import { VentaproductoComponent } from './componentes/ventaproducto/ventaproducto.component';
+import { ArquitecturaComponent } from './componentes/ComponentesRevista/arquitectura/arquitectura.component';
+import { ActualidadComponent } from './componentes/ComponentesRevista/actualidad/actualidad.component';
+import { DisenoInteriorComponent } from './componentes/ComponentesRevista/diseno-interior/diseno-interior.component';
+import { DisenoComponent } from './componentes/ComponentesRevista/diseno/diseno.component';
+import { ArteCulturaComponent } from './componentes/ComponentesRevista/arte-cultura/arte-cultura.component';
+import { TecnologiaComponent } from './componentes/ComponentesRevista/tecnologia/tecnologia.component';
 
 
 const routes: Routes = [
@@ -33,7 +39,18 @@ const routes: Routes = [
   { path: 'productos_concrete_items', component: ElementosConcreteItemsComponent},
   { path: 'productos_moviliarios', component: ElementosMoviliarioComponent},
   { path: 'productos_electricos', component: ElementosElectricosComponent},
-  { path: 'venta_producto', component: VentaproductoComponent }
+
+  { path: 'venta_producto', component: VentaproductoComponent },
+
+  { path: 'venta_producto', component: VentaproductoComponent },
+
+  { path: 'venta_producto', component: VentaproductoComponent },
+  { path: 'arquitectura-revista', component: ArquitecturaComponent },
+  { path: 'tecnologia-revista', component: TecnologiaComponent },
+  { path: 'actualidad-revista', component: ActualidadComponent },
+  { path: 'diseño-revista', component: DisenoComponent },   
+  { path: 'diseño-interior-revista', component: DisenoInteriorComponent },   
+  { path: 'arte-cultura-revista', component: ArteCulturaComponent },   
 
 ];
 
