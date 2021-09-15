@@ -14,7 +14,7 @@ import { ContactosComponent } from './componentes/contactos/contactos.component'
 import { HomeComponent } from './componentes/home/home.component';
 import { ElementosLamparasComponent } from './componentes/elementos-lamparas/elementos-lamparas.component';
 import { ElementosConcreteItemsComponent } from './componentes/elementos-concrete-items/elementos-concrete-items.component';
-import { SlidebarComponent } from './componentes/slidebar/slidebar.component';
+
 import { ElementosMoviliarioComponent } from './componentes/elementos-moviliario/elementos-moviliario.component';
 import { ElementosElectricosComponent } from './componentes/elementos-electricos/elementos-electricos.component';
 import { VentaproductoComponent } from './componentes/ventaproducto/ventaproducto.component';
@@ -31,8 +31,6 @@ const routes: Routes = [
   { path: 'productos_ferreteria', component: ElementosFerreteriaComponent},
   { path: 'productos_lampara', component: ElementosLamparasComponent},
   { path: 'productos_concrete_items', component: ElementosConcreteItemsComponent},
-  { path: 'slidebar', component: SlidebarComponent},
-
   { path: 'productos_moviliarios', component: ElementosMoviliarioComponent},
   { path: 'productos_electricos', component: ElementosElectricosComponent},
   { path: 'venta_producto', component: VentaproductoComponent }

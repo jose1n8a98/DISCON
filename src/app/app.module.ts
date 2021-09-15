@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+ //Inicio servicio
+ import { CargarScriptsService } from './cargar-scripts.service'
+ //Fin servicio
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { QuienesSomosComponent } from './componentes/quienes-somos/quienes-somos.component';
@@ -21,7 +25,6 @@ import { ElementosMoviliarioComponent } from './componentes/elementos-moviliario
 import { ElementosElectricosComponent } from './componentes/elementos-electricos/elementos-electricos.component';
 import { VentaproductoComponent } from './componentes/ventaproducto/ventaproducto.component';
 import { CardObrasComponent } from './componentes/card-obras/card-obras.component';
-import { SlidebarComponent } from './componentes/slidebar/slidebar.component';
 
 import { CardVentaComponent } from './componentes/card-venta/card-venta.component';
 import { MiniCardsComponent } from './componentes/mini-cards/mini-cards.component';
@@ -50,7 +53,6 @@ import { MiniCardsComponent } from './componentes/mini-cards/mini-cards.componen
     ElementosLamparasComponent,
     ElementosConcreteItemsComponent,
     CardObrasComponent,
-    SlidebarComponent,
     ElementosMoviliarioComponent,
     ElementosElectricosComponent,
     VentaproductoComponent,
@@ -62,7 +64,10 @@ import { MiniCardsComponent } from './componentes/mini-cards/mini-cards.componen
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    CargarScriptsService
+  ],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }

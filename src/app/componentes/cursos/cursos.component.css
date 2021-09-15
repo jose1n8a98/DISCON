@@ -1,3 +1,52 @@
-div{
-  background-color: #fff;
+.btn-toggle::before {
+  width: 1.25em;
+  line-height: 0;
+  content: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e);
+  transition: transform .35s ease;
+  transform-origin: .5em 50%;
+}
+.btn-toggle[aria-expanded="true"]::before {
+  transform: rotate(
+90deg);
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.iconos {
+  padding-right: 10px !important;
+  margin-right: 10px;
+}
+element.style {
+  width: 200px !important;
+  /* height: 80%; */
+}
+#barra-estudiante{
+  display: flex;
+  padding: 12px;
+  margin: 0px;
+  text-align:right;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.473);
+  justify-content: right;
+}
+#contenedor{
+  display: flex !important;
+  flex-direction: column;
+  padding: 10px;
+}
+#nombre{
+  margin: 0;
+  padding-top: 30px;
+}
+#avatar{
+  margin: 20px;
+  background-color: rgb(18, 139, 99);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+
+}
+h4{
+  padding-top: 9px;
 }
